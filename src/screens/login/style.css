@@ -1,0 +1,68 @@
+.container {
+    background-color: rgb(55, 95, 206);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.container form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.entradasTexto {
+    margin-bottom: 10px;
+    width: 20em;
+    height: 35px;
+    border: solid 2px rgb(238, 238, 238);
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: rgb(55, 95, 206);
+    color: white;
+}
+
+.entradasTexto::placeholder {
+    color: rgba(255, 255, 255, 0.795);
+}
+
+
+.botaoEntrar {
+    margin-top: 10px;
+    height: 35px;
+    width: 15em;
+    border-radius: 5px;
+    background-color: rgb(252, 252, 252);
+    color: rgb(55, 95, 206);
+    font-weight: 600;
+    border: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.384);
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 20px;
+}
+
+.botaoEntrar:active {
+    background-color: rgb(218, 218, 218);
+    color: rgb(55, 95, 206);
+}
+
+.imagem {
+    width: 12em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 600;
+    color: white
+}
